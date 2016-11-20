@@ -1,0 +1,268 @@
+﻿Build started 21.05.2016 20:04:39.
+     1>Project "C:\Users\aleko\Documents\Visual Studio 2013\Projects\3DRec\3DRec\3DRec.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aleko\Documents\Visual Studio 2013\Projects\3DRec\x64\Release\3DRec.exe" /NOLOGO opencv_core2412.lib opencv_flann2412.lib opencv_imgproc2412.lib opencv_highgui2412.lib opencv_calib3d2412.lib opencv_ml2412.lib opencv_video2412.lib opencv_legacy2412.lib opencv_objdetect2412.lib opencv_photo2412.lib opencv_gpu2412.lib opencv_ocl2412.lib opencv_nonfree2412.lib opencv_contrib2412.lib opencv_stitching2412.lib opencv_superres2412.lib opencv_ts2412.lib opencv_videostab2412.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\aleko\Documents\Visual Studio 2013\Projects\3DRec\x64\Release\3DRec.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\aleko\Documents\Visual Studio 2013\Projects\3DRec\x64\Release\3DRec.lib" /MACHINE:X64 x64\Release\createModel.obj
+         x64\Release\findCameraMatrix.obj
+         x64\Release\LUT.obj
+         x64\Release\Matcher.obj
+         x64\Release\MatchingPoints.obj
+         x64\Release\MatrixCalculations.obj
+         x64\Release\projectPt2.obj
+     1>opencv_core2412.lib(matrix.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(alloc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(copy.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(system.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(lapack.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(matop.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(convert.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(out.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(algorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(opencv_core_pch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(stat.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(rand.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(parallel.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(array.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(datastructs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(gpumat.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(opengl_interop_deprecated.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(opengl_interop.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(arithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(matmul.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(persistence.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(tables.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_core2412.lib(mathfuncs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(pyramids.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(opencv_imgproc_pch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(filter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(templmatch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(utils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(sumpixels.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(loadsave.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(window.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(opencv_highgui_pch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(grfmt_bmp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(grfmt_sunras.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(grfmt_pxm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(window_w32.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(utils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(bitstrm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_highgui2412.lib(grfmt_base.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_calib3d2412.lib(fundam.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_calib3d2412.lib(calibration.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_calib3d2412.lib(solvepnp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_calib3d2412.lib(opencv_calib3d_pch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_calib3d2412.lib(modelest.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_calib3d2412.lib(epnp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_calib3d2412.lib(p3p.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_calib3d2412.lib(polynom_solver.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_nonfree2412.lib(surf.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_nonfree2412.lib(opencv_nonfree_pch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_nonfree2412.lib(nonfree_init.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_nonfree2412.lib(sift.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_nonfree2412.lib(surf_ocl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_nonfree2412.lib(opencl_kernels.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(locale0.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(cerr.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(ios.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(iosptrs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(locale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(xlock.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(xthrow.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(wlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(xlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(xdateord.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: __xi_a already defined in MSVCRT.lib(cinitexe.obj)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: __xi_z already defined in MSVCRT.lib(cinitexe.obj)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: __xc_a already defined in MSVCRT.lib(cinitexe.obj)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: __xc_z already defined in MSVCRT.lib(cinitexe.obj)
+     1>opencv_core2412.lib(dxt.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(undistort.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(smooth.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(imgwarp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(color.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(tables.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(imgwarp_avx.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(imgwarp_avx2.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(matrix_operations.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(cl_operations.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(color.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(imgproc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(mcwutil.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(cl_runtime.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(opencv_ocl_pch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(error.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(cl_context.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(arithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(opencl_kernels.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(cl_programcache.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(filtering.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(fft.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(gemm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(clamdfft_runtime.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_ocl2412.lib(clamdblas_runtime.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>libcpmt.lib(cout.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(deriv.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>opencv_imgproc2412.lib(morph.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in createModel.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>Matcher.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl cv::BFMatcher::radiusMatchImpl(class cv::Mat const &,class std::vector<class std::vector<struct cv::DMatch,class std::allocator<struct cv::DMatch> >,class std::allocator<class std::vector<struct cv::DMatch,class std::allocator<struct cv::DMatch> > > > &,float,class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > const &,bool)" (?radiusMatchImpl@BFMatcher@cv@@MEAAXAEBVMat@2@AEAV?$vector@V?$vector@UDMatch@cv@@V?$allocator@UDMatch@cv@@@std@@@std@@V?$allocator@V?$vector@UDMatch@cv@@V?$allocator@UDMatch@cv@@@std@@@std@@@2@@std@@MAEBV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@5@_N@Z)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl cv::BFMatcher::knnMatchImpl(class cv::Mat const &,class std::vector<class std::vector<struct cv::DMatch,class std::allocator<struct cv::DMatch> >,class std::allocator<class std::vector<struct cv::DMatch,class std::allocator<struct cv::DMatch> > > > &,int,class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > const &,bool)" (?knnMatchImpl@BFMatcher@cv@@MEAAXAEBVMat@2@AEAV?$vector@V?$vector@UDMatch@cv@@V?$allocator@UDMatch@cv@@@std@@@std@@V?$allocator@V?$vector@UDMatch@cv@@V?$allocator@UDMatch@cv@@@std@@@std@@@2@@std@@HAEBV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@5@_N@Z)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: virtual class cv::AlgorithmInfo * __cdecl cv::BFMatcher::info(void)const " (?info@BFMatcher@cv@@UEBAPEAVAlgorithmInfo@2@XZ)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: virtual class cv::Ptr<class cv::DescriptorMatcher> __cdecl cv::BFMatcher::clone(bool)const " (?clone@BFMatcher@cv@@UEBA?AV?$Ptr@VDescriptorMatcher@cv@@@2@_N@Z)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: __cdecl cv::BFMatcher::BFMatcher(int,bool)" (??0BFMatcher@cv@@QEAA@H_N@Z)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl cv::DescriptorMatcher::write(class cv::FileStorage &)const " (?write@DescriptorMatcher@cv@@UEBAXAEAVFileStorage@2@@Z)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl cv::DescriptorMatcher::read(class cv::FileNode const &)" (?read@DescriptorMatcher@cv@@UEAAXAEBVFileNode@2@@Z)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::DescriptorMatcher::knnMatch(class cv::Mat const &,class cv::Mat const &,class std::vector<class std::vector<struct cv::DMatch,class std::allocator<struct cv::DMatch> >,class std::allocator<class std::vector<struct cv::DMatch,class std::allocator<struct cv::DMatch> > > > &,int,class cv::Mat const &,bool)const " (?knnMatch@DescriptorMatcher@cv@@QEBAXAEBVMat@2@0AEAV?$vector@V?$vector@UDMatch@cv@@V?$allocator@UDMatch@cv@@@std@@@std@@V?$allocator@V?$vector@UDMatch@cv@@V?$allocator@UDMatch@cv@@@std@@@std@@@2@@std@@H0_N@Z)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl cv::DescriptorMatcher::train(void)" (?train@DescriptorMatcher@cv@@UEAAXXZ)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::DescriptorMatcher::empty(void)const " (?empty@DescriptorMatcher@cv@@UEBA_NXZ)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl cv::DescriptorMatcher::clear(void)" (?clear@DescriptorMatcher@cv@@UEAAXXZ)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl cv::DescriptorMatcher::add(class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > const &)" (?add@DescriptorMatcher@cv@@UEAAXAEBV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@@Z)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::DescriptorMatcher::~DescriptorMatcher(void)" (??1DescriptorMatcher@cv@@UEAA@XZ)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::DescriptorExtractor::compute(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,class cv::Mat &)const " (?compute@DescriptorExtractor@cv@@QEBAXAEBVMat@2@AEAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@AEAV32@@Z)
+     1>Matcher.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::FeatureDetector::detect(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,class cv::Mat const &)const " (?detect@FeatureDetector@cv@@QEBAXAEBVMat@2@AEAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@0@Z)
+     1>MatchingPoints.obj : error LNK2001: unresolved external symbol "void __cdecl cv::drawMatches(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > const &,class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > const &,class std::vector<struct cv::DMatch,class std::allocator<struct cv::DMatch> > const &,class cv::Mat &,class cv::Scalar_<double> const &,class cv::Scalar_<double> const &,class std::vector<char,class std::allocator<char> > const &,int)" (?drawMatches@cv@@YAXAEBVMat@1@AEBV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@01AEBV?$vector@UDMatch@cv@@V?$allocator@UDMatch@cv@@@std@@@4@AEAV21@AEBV?$Scalar_@N@1@4AEBV?$vector@DV?$allocator@D@std@@@4@H@Z)
+     1>projectPt2.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::DescriptorMatcher::match(class cv::Mat const &,class cv::Mat const &,class std::vector<struct cv::DMatch,class std::allocator<struct cv::DMatch> > &,class cv::Mat const &)const " (?match@DescriptorMatcher@cv@@QEBAXAEBVMat@2@0AEAV?$vector@UDMatch@cv@@V?$allocator@UDMatch@cv@@@std@@@std@@0@Z)
+     1>opencv_nonfree2412.lib(surf_ocl.obj) : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::DescriptorExtractor::~DescriptorExtractor(void)" (??1DescriptorExtractor@cv@@UEAA@XZ)
+     1>projectPt2.obj : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::DescriptorExtractor::~DescriptorExtractor(void)" (??1DescriptorExtractor@cv@@UEAA@XZ)
+     1>opencv_nonfree2412.lib(surf.obj) : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::DescriptorExtractor::~DescriptorExtractor(void)" (??1DescriptorExtractor@cv@@UEAA@XZ)
+     1>opencv_nonfree2412.lib(nonfree_init.obj) : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::DescriptorExtractor::~DescriptorExtractor(void)" (??1DescriptorExtractor@cv@@UEAA@XZ)
+     1>opencv_nonfree2412.lib(sift.obj) : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::DescriptorExtractor::~DescriptorExtractor(void)" (??1DescriptorExtractor@cv@@UEAA@XZ)
+     1>opencv_nonfree2412.lib(surf_ocl.obj) : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::FeatureDetector::~FeatureDetector(void)" (??1FeatureDetector@cv@@UEAA@XZ)
+     1>projectPt2.obj : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::FeatureDetector::~FeatureDetector(void)" (??1FeatureDetector@cv@@UEAA@XZ)
+     1>opencv_nonfree2412.lib(surf.obj) : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::FeatureDetector::~FeatureDetector(void)" (??1FeatureDetector@cv@@UEAA@XZ)
+     1>opencv_nonfree2412.lib(nonfree_init.obj) : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::FeatureDetector::~FeatureDetector(void)" (??1FeatureDetector@cv@@UEAA@XZ)
+     1>opencv_nonfree2412.lib(sift.obj) : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::FeatureDetector::~FeatureDetector(void)" (??1FeatureDetector@cv@@UEAA@XZ)
+     1>projectPt2.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::Feature2D::compute(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,class cv::Mat &)const " (?compute@Feature2D@cv@@QEBAXAEBVMat@2@AEAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@AEAV32@@Z)
+     1>opencv_core2412.lib(persistence.obj) : error LNK2001: unresolved external symbol gzputs
+     1>opencv_core2412.lib(persistence.obj) : error LNK2001: unresolved external symbol gzgets
+     1>opencv_core2412.lib(persistence.obj) : error LNK2001: unresolved external symbol gzrewind
+     1>opencv_core2412.lib(persistence.obj) : error LNK2001: unresolved external symbol gzeof
+     1>opencv_core2412.lib(persistence.obj) : error LNK2001: unresolved external symbol gzclose
+     1>opencv_core2412.lib(persistence.obj) : error LNK2001: unresolved external symbol gzopen
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_std_error
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_CreateCompress
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_CreateDecompress
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_destroy_compress
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_destroy_decompress
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_stdio_dest
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_stdio_src
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_set_defaults
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_set_quality
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_alloc_huff_table
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_start_compress
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_write_scanlines
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_finish_compress
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_read_header
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_start_decompress
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_read_scanlines
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_finish_decompress
+     1>opencv_highgui2412.lib(grfmt_jpeg.obj) : error LNK2001: unresolved external symbol jpeg_resync_to_restart
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFClose
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFGetField
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFScanlineSize
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFIsTiled
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFSetField
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFWriteScanline
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFReadRGBAStrip
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFReadRGBATile
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFRGBAImageOK
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFOpen
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFSetErrorHandler
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFSetWarningHandler
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFReadEncodedStrip
+     1>opencv_highgui2412.lib(grfmt_tiff.obj) : error LNK2001: unresolved external symbol TIFFReadEncodedTile
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_create_read_struct
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_create_write_struct
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_longjmp_fn
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_create_info_struct
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_write_info
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_read_info
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_expand_gray_1_2_4_to_8
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_palette_to_rgb
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_bgr
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_gray_to_rgb
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_rgb_to_gray
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_strip_alpha
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_swap
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_packing
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_interlace_handling
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_strip_16
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_read_update_info
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_read_image
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_write_image
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_write_end
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_read_end
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_destroy_read_struct
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_destroy_write_struct
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_filter
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_compression_level
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_compression_strategy
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_init_io
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_write_fn
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_read_fn
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_get_io_ptr
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_error
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_get_IHDR
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_set_IHDR
+     1>opencv_highgui2412.lib(grfmt_png.obj) : error LNK2001: unresolved external symbol png_get_tRNS
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_init
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_cleanup
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_stream_fopen
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_stream_close
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_cmprof_destroy
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_cmprof_createfromclrspc
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_matrix_create
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_matrix_destroy
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_image_create
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_image_destroy
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_image_decode
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_image_encode
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_image_readcmpt
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_image_writecmpt
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_image_getcmptbytype
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_image_strtofmt
+     1>opencv_highgui2412.lib(grfmt_jpeg2000.obj) : error LNK2001: unresolved external symbol jas_image_chclrspc
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: __cdecl Imf::Header::Header(int,int,float,class Imath::Vec2<float> const &,float,enum Imf::LineOrder,enum Imf::Compression)" (??0Header@Imf@@QEAA@HHMAEBV?$Vec2@M@Imath@@MW4LineOrder@1@W4Compression@1@@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: __cdecl Imf::Header::~Header(void)" (??1Header@Imf@@QEAA@XZ)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: class Imath::Box<class Imath::Vec2<int> > const & __cdecl Imf::Header::dataWindow(void)const " (?dataWindow@Header@Imf@@QEBAAEBV?$Box@V?$Vec2@H@Imath@@@Imath@@XZ)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: class Imf::ChannelList & __cdecl Imf::Header::channels(void)" (?channels@Header@Imf@@QEAAAEAVChannelList@2@XZ)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: class Imf::ChannelList const & __cdecl Imf::Header::channels(void)const " (?channels@Header@Imf@@QEBAAEBVChannelList@2@XZ)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: __cdecl Imf::Slice::Slice(enum Imf::PixelType,char *,unsigned __int64,unsigned __int64,int,int,double,bool,bool)" (??0Slice@Imf@@QEAA@W4PixelType@1@PEAD_K2HHN_N3@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: void __cdecl Imf::FrameBuffer::insert(char const * const,struct Imf::Slice const &)" (?insert@FrameBuffer@Imf@@QEAAXQEBDAEBUSlice@2@@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "int __cdecl Imf::globalThreadCount(void)" (?globalThreadCount@Imf@@YAHXZ)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: __cdecl Imf::InputFile::InputFile(char const * const,int)" (??0InputFile@Imf@@QEAA@QEBDH@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: class Imf::Header const & __cdecl Imf::InputFile::header(void)const " (?header@InputFile@Imf@@QEBAAEBVHeader@2@XZ)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: void __cdecl Imf::InputFile::setFrameBuffer(class Imf::FrameBuffer const &)" (?setFrameBuffer@InputFile@Imf@@QEAAXAEBVFrameBuffer@2@@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: void __cdecl Imf::InputFile::readPixels(int,int)" (?readPixels@InputFile@Imf@@QEAAXHH@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: __cdecl Imf::OutputFile::OutputFile(char const * const,class Imf::Header const &,int)" (??0OutputFile@Imf@@QEAA@QEBDAEBVHeader@1@H@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: virtual __cdecl Imf::OutputFile::~OutputFile(void)" (??1OutputFile@Imf@@UEAA@XZ)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: void __cdecl Imf::OutputFile::setFrameBuffer(class Imf::FrameBuffer const &)" (?setFrameBuffer@OutputFile@Imf@@QEAAXAEBVFrameBuffer@2@@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: void __cdecl Imf::OutputFile::writePixels(int)" (?writePixels@OutputFile@Imf@@QEAAXH@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: __cdecl Imf::Channel::Channel(enum Imf::PixelType,int,int,bool)" (??0Channel@Imf@@QEAA@W4PixelType@1@HH_N@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: void __cdecl Imf::ChannelList::insert(char const * const,struct Imf::Channel const &)" (?insert@ChannelList@Imf@@QEAAXQEBDAEBUChannel@2@@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: struct Imf::Channel const * __cdecl Imf::ChannelList::findChannel(char const * const)const " (?findChannel@ChannelList@Imf@@QEBAPEBUChannel@2@QEBD@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "private: static short __cdecl half::convert(int)" (?convert@half@@CAFH@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "public: __cdecl Imf::Chromaticities::Chromaticities(class Imath::Vec2<float> const &,class Imath::Vec2<float> const &,class Imath::Vec2<float> const &,class Imath::Vec2<float> const &)" (??0Chromaticities@Imf@@QEAA@AEBV?$Vec2@M@Imath@@000@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "bool __cdecl Imf::hasChromaticities(class Imf::Header const &)" (?hasChromaticities@Imf@@YA_NAEBVHeader@1@@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "struct Imf::Chromaticities const & __cdecl Imf::chromaticities(class Imf::Header const &)" (?chromaticities@Imf@@YAAEBUChromaticities@1@AEBVHeader@1@@Z)
+     1>opencv_highgui2412.lib(grfmt_exr.obj) : error LNK2001: unresolved external symbol "private: static unsigned short const * const half::_eLut" (?_eLut@half@@0QBGB)
+     1>opencv_nonfree2412.lib(surf.obj) : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::FeatureDetector::empty(void)const " (?empty@FeatureDetector@cv@@UEBA_NXZ)
+     1>opencv_nonfree2412.lib(sift.obj) : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::FeatureDetector::empty(void)const " (?empty@FeatureDetector@cv@@UEBA_NXZ)
+     1>opencv_nonfree2412.lib(surf_ocl.obj) : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::FeatureDetector::empty(void)const " (?empty@FeatureDetector@cv@@UEBA_NXZ)
+     1>opencv_nonfree2412.lib(surf.obj) : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::DescriptorExtractor::empty(void)const " (?empty@DescriptorExtractor@cv@@UEBA_NXZ)
+     1>opencv_nonfree2412.lib(sift.obj) : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::DescriptorExtractor::empty(void)const " (?empty@DescriptorExtractor@cv@@UEBA_NXZ)
+     1>opencv_nonfree2412.lib(surf_ocl.obj) : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::DescriptorExtractor::empty(void)const " (?empty@DescriptorExtractor@cv@@UEBA_NXZ)
+     1>opencv_nonfree2412.lib(sift.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl cv::KeyPointsFilter::runByPixelsMask(class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,class cv::Mat const &)" (?runByPixelsMask@KeyPointsFilter@cv@@SAXAEAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@AEBVMat@2@@Z)
+     1>opencv_nonfree2412.lib(sift.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl cv::KeyPointsFilter::removeDuplicated(class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &)" (?removeDuplicated@KeyPointsFilter@cv@@SAXAEAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@@Z)
+     1>opencv_nonfree2412.lib(sift.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl cv::KeyPointsFilter::retainBest(class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,int)" (?retainBest@KeyPointsFilter@cv@@SAXAEAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@H@Z)
+     1>C:\Users\aleko\Documents\Visual Studio 2013\Projects\3DRec\x64\Release\3DRec.exe : fatal error LNK1120: 138 unresolved externals
+     1>Done Building Project "C:\Users\aleko\Documents\Visual Studio 2013\Projects\3DRec\3DRec\3DRec.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.92
